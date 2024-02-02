@@ -9,3 +9,9 @@
 	STRIPE_SECRET=sk_test_key
 5. run the below command
 	php artisan serve
+	http://127.0.0.1:8000/stripe
+
+6. Switch the branch "trait_example" for seeing trait example
+	run the below command
+	php artisan serve
+	http://127.0.0.1:8000/students
