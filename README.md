@@ -14,10 +14,16 @@
 
 6. Switch the branch "trait_example" for seeing trait example
 	run the below command
+	php artisan migrate
+	php artisan db:seed --class=StudentSeeder
 	php artisan serve
 	http://127.0.0.1:8000/students
 
-6. Switch the branch "custom_route" for seeing custom route/reverse route example
+7. Switch the branch "custom_route" for seeing custom route/reverse route example
 	run the below command
+	php artisan serve
+	http://127.0.0.1:8000/admin
+
+8. Switch the branch "event_listener" for seeing event/listener example. It will update a random 	student field "updated_at"
 	php artisan serve
 	http://127.0.0.1:8000/admin
